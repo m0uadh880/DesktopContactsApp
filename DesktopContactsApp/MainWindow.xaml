@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesktopContactsApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="newContactWindow" Height="540" Width="535">
+    <Border Background="White">
+        <Button Content="Add New Contact"  Style="{StaticResource Savebutton}" Margin="0 10 0 0" 
+                Height="25" Width="500" VerticalAlignment="top"
+                Click="AddNewContactButton_Click"/>
+    </Border>
 </Window>

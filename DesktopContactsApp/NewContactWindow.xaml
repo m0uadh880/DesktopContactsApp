@@ -5,24 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesktopContactsApp"
         mc:Ignorable="d"
-        Title="newContactWindow" Height="250" Width="250">
+        Title="newContactWindow" Height="540" Width="535">
     <Border Background="White">
         <StackPanel Margin="20">
             <StackPanel>
-                <TextBlock  Text="Name :" Margin="0 5 0 4" FontWeight="SemiBold" Foreground="#71717a" IsHitTestVisible="False" />
-                <TextBox x:Name="NameTextBox" Height="25" Width="170" HorizontalAlignment="Left"/>
+                <TextBlock  Text="Name :" FontSize="40" Margin="0 5 0 4" FontWeight="SemiBold" Foreground="#71717a" IsHitTestVisible="False" />
+                <TextBox x:Name="NameTextBox" Padding="10" Height="60" Width="450" HorizontalAlignment="Left"/>
             </StackPanel>
 
             <StackPanel>
-                <TextBlock Text="Email :" Margin="0 5 0 4" FontWeight="SemiBold" Foreground="#71717a" IsHitTestVisible="False" />
-                <TextBox x:Name="EmailTextBox" Height="25" Width="170" HorizontalAlignment="Left"/>
+                <TextBlock Text="Email :" FontSize="40" Margin="0 5 0 4" FontWeight="SemiBold" Foreground="#71717a" IsHitTestVisible="False" />
+                <TextBox x:Name="EmailTextBox" Padding="10"  Height="60" Width="450" HorizontalAlignment="Left"/>
             </StackPanel>
 
             <StackPanel>
-                <TextBlock Text="Phone :" Margin="0 5 0 4" FontWeight="SemiBold" Foreground="#71717a" IsHitTestVisible="False" />
-                <TextBox x:Name="PhoneTextBox" Height="25" Width="170" HorizontalAlignment="Left"/>
+                <TextBlock Text="Phone :" Margin="0 5 0 4" FontSize="40" FontWeight="SemiBold" Foreground="#71717a" IsHitTestVisible="False" />
+                <TextBox x:Name="PhoneTextBox" Padding="10"  Height="60" Width="450" HorizontalAlignment="Left"/>
             </StackPanel>
-            <Button Content="Save" Click="Save_Button_Click" Style="{StaticResource Savebutton}" Margin="70 15 10 0" Height="25" Width="70"  />
+            <Button Content="Save" FontSize="25" Click="Save_Button_Click" Style="{StaticResource Savebutton}" Margin="370 15 10 0" Height="60" Width="100"  />
         </StackPanel>
     </Border>
 </Window>
