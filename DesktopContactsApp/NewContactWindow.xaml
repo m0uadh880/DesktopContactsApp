@@ -1,0 +1,28 @@
+﻿<Window x:Class="DesktopContactsApp.NewContactWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesktopContactsApp"
+        mc:Ignorable="d"
+        Title="newContactWindow" Height="250" Width="250">
+    <Border Background="White">
+        <StackPanel Margin="20">
+            <StackPanel>
+                <TextBlock  Text="Name :" Margin="0 5 0 4" FontWeight="SemiBold" Foreground="#71717a" IsHitTestVisible="False" />
+                <TextBox x:Name="NameTextBox" Height="25" Width="170" HorizontalAlignment="Left"/>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Text="Email :" Margin="0 5 0 4" FontWeight="SemiBold" Foreground="#71717a" IsHitTestVisible="False" />
+                <TextBox x:Name="EmailTextBox" Height="25" Width="170" HorizontalAlignment="Left"/>
+            </StackPanel>
+
+            <StackPanel>
+                <TextBlock Text="Phone :" Margin="0 5 0 4" FontWeight="SemiBold" Foreground="#71717a" IsHitTestVisible="False" />
+                <TextBox x:Name="PhoneTextBox" Height="25" Width="170" HorizontalAlignment="Left"/>
+            </StackPanel>
+            <Button Content="Save" Click="Save_Button_Click" Style="{StaticResource Savebutton}" Margin="70 15 10 0" Height="25" Width="70"  />
+        </StackPanel>
+    </Border>
+</Window>
