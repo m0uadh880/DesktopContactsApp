@@ -6,9 +6,22 @@
         xmlns:local="clr-namespace:DesktopContactsApp"
         mc:Ignorable="d"
         Title="newContactWindow" Height="540" Width="535">
-    <Border Background="White">
-        <Button Content="Add New Contact"  Style="{StaticResource Savebutton}" Margin="0 10 0 0" 
+        <StackPanel >
+            <Button Content="Add New Contact"  Style="{StaticResource Savebutton}" Margin="0 10 0 0" 
                 Height="25" Width="500" VerticalAlignment="top"
                 Click="AddNewContactButton_Click"/>
-    </Border>
+        <ListView x:Name="ContactsListView"
+                      Margin="0 10 0 0"
+                      Height="400">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Name}" FontSize="20" FontWeight="Bold"/>
+                        <TextBlock Text="{Binding Email}" FontSize="15" Foreground="Brown"/>
+                        <TextBlock Text="{Binding Phone}" FontSize="15" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </StackPanel>
 </Window>

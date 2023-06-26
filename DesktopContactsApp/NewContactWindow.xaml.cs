@@ -39,6 +39,8 @@ namespace DesktopContactsApp
                 connection.CreateTable<Contact>();
                 connection.Insert(contact);
             }
+
+            Close();
         }
     }
 }
