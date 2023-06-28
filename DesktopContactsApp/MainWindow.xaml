@@ -10,6 +10,8 @@
             <Button Content="Add New Contact"  Style="{StaticResource Savebutton}" Margin="0 10 0 0" 
                 Height="25" Width="500" VerticalAlignment="top"
                 Click="AddNewContactButton_Click"/>
+        <TextBox Margin="10" FontSize="20" Height="auto" TextChanged="TextBox_TextChanged"/>
+
         <ListView x:Name="ContactsListView"
                       Margin="0 10 0 0"
                       Height="400">

@@ -23,6 +23,7 @@ namespace DesktopContactsApp
         {
             InitializeComponent();
         }
+
         private void Save_Button_Click(object sender, RoutedEventArgs e)
         {
             Contact contact = new Contact()
