@@ -36,3 +36,5 @@ C:\Users\Msi Rtx\source\repos\DesktopContactsApp\DesktopContactsApp\obj\Debug\De
 C:\Users\Msi Rtx\source\repos\DesktopContactsApp\DesktopContactsApp\obj\Debug\DesktopContactsApp.csproj.CopyComplete
 C:\Users\Msi Rtx\source\repos\DesktopContactsApp\DesktopContactsApp\obj\Debug\DesktopContactsApp.exe
 C:\Users\Msi Rtx\source\repos\DesktopContactsApp\DesktopContactsApp\obj\Debug\DesktopContactsApp.pdb
+C:\Users\Msi Rtx\source\repos\DesktopContactsApp\DesktopContactsApp\obj\Debug\ContactDetailsWindow.g.cs
+C:\Users\Msi Rtx\source\repos\DesktopContactsApp\DesktopContactsApp\obj\Debug\ContactDetailsWindow.baml
